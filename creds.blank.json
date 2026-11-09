@@ -1,0 +1,65 @@
+[
+  {
+    "id": "2e0piEEWJzOPXebU",
+    "name": "AbuseIPDB",
+    "type": "httpHeaderAuth",
+    "data": {
+      "name": "Key",
+      "value": "YOUR-KEY-HERE"
+    }
+  },
+  {
+    "id": "1r7wDIWSJd3zuA66",
+    "name": "VirusTotal",
+    "type": "httpHeaderAuth",
+    "data": {
+      "name": "x-apikey",
+      "value": "YOUR-KEY-HERE"
+    }
+  },
+  {
+    "id": "xrt6u07a2dCkKWPy",
+    "name": "OTX",
+    "type": "httpHeaderAuth",
+    "data": {
+      "name": "X-OTX-API-KEY",
+      "value": "YOUR-KEY-HERE"
+    }
+  },
+  {
+    "id": "1tKHk8pIIGzD46j6",
+    "name": "URLScan.io",
+    "type": "httpHeaderAuth",
+    "data": {
+      "name": "API-Key",
+      "value": "YOUR-KEY-HERE"
+    }
+  },
+  {
+    "id": "AUuCu2g8T99nNLNb",
+    "name": "DeepSeek account",
+    "type": "deepSeekApi",
+    "data": {
+      "apiKey": "YOUR-KEY-HERE"
+    }
+  },
+  {
+    "id": "ULnIjYpa9mzCrZXQ",
+    "name": "Google Gemini(PaLM) Api account",
+    "type": "googlePalmApi",
+    "data": {
+      "apiKey": "YOUR-KEY-HERE"
+    }
+  },
+  {
+    "id": "G3t5qcmyIkZcsj9K",
+    "name": "Postgres account",
+    "type": "postgres",
+    "data": {
+      "host": "postgres",
+      "database": "n8n",
+      "user": "YOUR-USER-HERE",
+      "password": "YOUR-PASSWORD-HERE"
+    }
+  }
+]
